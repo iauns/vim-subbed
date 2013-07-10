@@ -1,5 +1,5 @@
 
-let s:activeRegister = easyclip#GetDefaultReg()
+let s:activeRegister = subbed#GetDefaultReg()
 let s:moveCursor = 0
 
 function! s:OnPreSubstitute(register, moveCursor)
