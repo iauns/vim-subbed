@@ -19,17 +19,17 @@ I recommend using either Vundle or NeoBundle to install this plugin.
 Example
 --------
 
-If the cursor is represented by `^`, and `bad` is in the yank buffer then
-pressing `-w` will change the following text
+If the cursor is represented by `^`, and where `inquisitive` is in the yank
+buffer then pressing `-w` will change the following text
 
 ```
-and the ^good cat climbed ...
+and the ^hairy snail slimed ...
 ```
 
 into
 
 ```
-
+and the inquisitive^ snail slimed ... 
 ```
 
 Why?
